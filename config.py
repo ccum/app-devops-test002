@@ -32,18 +32,18 @@ DATA_BACKEND = 'datastore'
 
 # Google Cloud Project ID. This can be found on the 'Overview' page at
 # https://console.developers.google.com
-PROJECT_ID = 'la-music-gallery-flex'
+PROJECT_ID = 'devops-test003'
 
 # CloudSQL & SQLAlchemy configuration
 # Replace the following values the respective values of your Cloud SQL
 # instance.
 CLOUDSQL_USER = 'root'
-CLOUDSQL_PASSWORD = 'your-cloudsql-password'
-CLOUDSQL_DATABASE = 'musicgallery'
+CLOUDSQL_PASSWORD = 'jnhpGqFkOna5qALr'
+CLOUDSQL_DATABASE = 'devops-test002'
 # Set this value to the Cloud SQL connection name, e.g.
 #   "project:region:cloudsql-instance".
 # You must also update the value in app.yaml.
-CLOUDSQL_CONNECTION_NAME = 'your-cloudsql-connection-name'
+CLOUDSQL_CONNECTION_NAME = 'devops-test002:us-east1:devops-test002'
 
 # The CloudSQL proxy is used locally to connect to the cloudsql instance.
 # To start the proxy, use:
